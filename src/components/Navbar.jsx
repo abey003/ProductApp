@@ -15,7 +15,7 @@ const Navbar = () => {
           <Typography variant="h6" component="div" sx={{ flexGrow: 1, textAlign:'left' }}>
             Products
           </Typography>
-          <Link to="/home">
+          <Link to="/">
           <Button 
             color="inherit"
             style={{ color:"white" }}

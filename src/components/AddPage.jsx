@@ -21,29 +21,38 @@ const AddPage = () => {
           ADD PRODUCT  
         </Typography>
     </div>
-    <div style={{ marginTop:'3%' }}>
+    <div style={{ marginTop:'2%' }}>
         <TextField
             required
             label="Product Name"
-           variant="outlined" />
+            variant="standard" 
+            style={{ width:'20%'  }}
+           />
     </div>
-    <div style={{ marginTop:'3%' }}>
+    <div style={{ marginTop:'2%' }}>
         <TextField
             required
             label="Description"
-           variant="outlined" />
+            multiline
+            variant='standard'
+            style={{ width:'20%'  }}
+         />
     </div>
-    <div style={{ marginTop:'3%' }}>
+    <div style={{ marginTop:'2%' }}>
         <TextField
             required
             label="Price"
-           variant="outlined" />
+            variant='standard'
+            style={{ width:'20%'  }}
+         />
     </div>
-    <div style={{ marginTop:'3%' }}>
+    <div style={{ marginTop:'2%' }}>
         <TextField
             required
             label="Category"
-           variant="outlined" />
+            variant='standard'
+            style={{ width:'20%'  }}
+         />
     </div>
     <div style={{ marginTop:'3%' }}>
     <Button

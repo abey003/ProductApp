@@ -22,12 +22,12 @@ const HomePage = () => {
       <div>
         <Typography
           variant='h4'
-          style={{ marginTop:'3%', fontWeight:'bold' }}
+          style={{ marginTop:'3%', fontWeight:'bold', textAlign:'center' }}
         >
             HOME PAGE
         </Typography>
     </div>
-    <Grid container spacing={2} justifyContent="center">
+    <Grid container spacing={2} justifyContent="center" style={{ padding:'0% 2% 0% 2%' }}>
             {products.map((product) => (
                 <Grid item xs={4}>
                     <Card sx={{ maxWidth: '100%', margin: '5% auto', textAlign: 'left' }}>
@@ -39,10 +39,10 @@ const HomePage = () => {
                               alt="Paella dish"
                             />
                             <Typography sx={{ mb: 1.5 }}>
-                                <b>Title:</b> {product.title} Rs
+                                <b>Title:</b> {product.title}
                             </Typography>
                             <Typography sx={{ mb: 1.5 }}>
-                                <b>Price:</b> {product.price}
+                                <b>Price:</b> <span style={{color:'green'}}>$</span> {product.price}
                             </Typography>
                             <Typography sx={{ mb: 1.5 }}>
                                 <b>Category:</b> {product.category}
