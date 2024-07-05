@@ -42,7 +42,7 @@ const HomePage = () => {
                                 <b>Title:</b> {product.title}
                             </Typography>
                             <Typography sx={{ mb: 1.5 }}>
-                                <b>Price:</b> <span style={{color:'green'}}>$</span> {product.price}
+                                <b>Price:</b> <span style={{color:'green'}}>$</span>{product.price}
                             </Typography>
                             <Typography sx={{ mb: 1.5 }}>
                                 <b>Category:</b> {product.category}
